@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.10*%
-%TF.CreationDate,2024-03-15T11:16:33-04:00*%
+%TF.CreationDate,2024-03-15T14:22:34-04:00*%
 %TF.ProjectId,new_middle,6e65775f-6d69-4646-946c-652e6b696361,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.10) date 2024-03-15 11:16:33*
+G04 Created by KiCad (PCBNEW 7.0.10) date 2024-03-15 14:22:34*
 %MOMM*%
 %LPD*%
 G01*
@@ -28,10 +28,7 @@ G04 Aperture macros list end*
 %ADD11RotRect,1.700000X1.700000X60.000000*%
 %TD*%
 %TA.AperFunction,ComponentPad*%
-%ADD12RotRect,1.700000X1.700000X300.000000*%
-%TD*%
-%TA.AperFunction,ComponentPad*%
-%ADD13RotRect,1.700000X1.700000X120.000000*%
+%ADD12RotRect,1.700000X1.700000X120.000000*%
 %TD*%
 G04 APERTURE END LIST*
 D10*
@@ -44,12 +41,16 @@ D11*
 %TO.N,unconnected-(J102-Pin_1-Pad1)*%
 X65750000Y-22720000D03*
 %TD*%
+D10*
+%TO.P,J101,1,Pin_1*%
+%TO.N,unconnected-(J101-Pin_1-Pad1)*%
+X18500000Y-50000000D03*
+%TD*%
 D12*
 %TO.P,J103,1,Pin_1*%
 %TO.N,unconnected-(J103-Pin_1-Pad1)*%
 X65750000Y-77280000D03*
 %TD*%
-D13*
 %TO.P,J106,1,Pin_1*%
 %TO.N,unconnected-(J106-Pin_1-Pad1)*%
 X63750000Y-73816000D03*
@@ -58,10 +59,5 @@ D11*
 %TO.P,J105,1,Pin_1*%
 %TO.N,unconnected-(J105-Pin_1-Pad1)*%
 X63750000Y-26184000D03*
-%TD*%
-D10*
-%TO.P,J101,1,Pin_1*%
-%TO.N,unconnected-(J101-Pin_1-Pad1)*%
-X18500000Y-50000000D03*
 %TD*%
 M02*
